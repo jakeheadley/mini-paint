@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
 body {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+.reset-color {
+  background: #CCC;
+}
+
+.header {
+  padding: 20px;
+}
+
+.coloring-button {
+  min-width: 130px;
+  height: 2%;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 30px;
 }
 
 a {
@@ -22,7 +40,7 @@ div div {
     height: 2%;
     outline: 1px solid #fff;
     float: left;
-    background: black;
+    background: #CCC;
 }
 
 .white {
